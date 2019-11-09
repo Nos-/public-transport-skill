@@ -1,6 +1,5 @@
-Wie komme ich nach
-Wie komme ich von
-Wann fährt der nächste bus
-Wann fährt die nächste bahn
-Wann fährt linie
-Wohin fährt linie
+Wie komme ich nach {ZielOrt}
+Wie komme ich von {StartOrt} nach {ZielOrt}
+Wann fährt (der nächste bus | die nächste bahn)
+Wann fährt ( linie | bus | bahn ) {Linie} Richtung {ZielOrt}
+Wohin fährt ( linie | bus | bahn ) {Linie} Richtung {ZielOrt}
