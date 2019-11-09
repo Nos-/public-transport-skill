@@ -1,5 +1,5 @@
-Wie komme ich nach {ZielOrt}
-Wie komme ich von {StartOrt} nach {ZielOrt}
+Wie komme ich ( nach | zu | zum | zur ) {ZielOrt}
+Wie komme ich ( von | vom ) ( der | die | das | ) {StartOrt} ( nach | zu | zum | zur ) {ZielOrt}
 Wann fährt (der nächste bus | die nächste bahn)
 Wann fährt ( linie | bus | bahn ) {Linie} Richtung {ZielOrt}
 Wohin fährt ( linie | bus | bahn ) {Linie} Richtung {ZielOrt}
