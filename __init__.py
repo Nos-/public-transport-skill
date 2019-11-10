@@ -6,10 +6,10 @@ class PublicTransport(MycroftSkill):
 	def __init__(self):
 		MycroftSkill.__init__(self)
 
-#	def initialize(self):
-#		self.register_intent_file('transport.public.intent', self.handle_transport.public)
+	def initialize(self):
+		self.register_intent_file('nach.transport.public.intent', self.handle_transport_public)
 
-	@intent_file_handler('nach.transport.public.intent')
+#	@intent_file_handler('nach.transport.public.intent')
 	def handle_transport_public(self, message):
 		startort_type = message.data.get('StartOrt')
 		zielort_type = message.data.get('ZielOrt')
